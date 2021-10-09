@@ -25,7 +25,7 @@ class ProspectController extends Controller
             //     $this->rmSpecialChars($request->titular['cpf']),
             //     $this->rmSpecialChars($request->titular['cartaoSus'])
             // );
-            
+
             // salvar titular e recuperar seu id
             $titular = new Titular([
                 'nome' => $request->titular['nome'],
@@ -48,12 +48,11 @@ class ProspectController extends Controller
             ]);
 
             $titular->save();
-
-            if(count($request->dependentes)) {
+            if(isset($request->dependentes)) {
 
                 foreach ($request->dependentes as $index => $dep) {
                     $dependente = new Dependente([
-                        'parentescto' => $dep['parentesco'],
+                        'parentesco' => $dep['parentesco'],
                         'nome' => $dep['nome'],
                         'genero' => $dep['genero'],
                         'dtnascimento' => $dep['dtnascimento'],
@@ -72,7 +71,7 @@ class ProspectController extends Controller
             dd($th);
         }
 
-        return response()->json($request->all());
+        return response()->json(['success' => 'Dados cadastrados com sucesso!']);
     }
 
     private function rmSpecialChars($string) {

@@ -8,7 +8,7 @@ class Dependente extends Model
 {
     protected $table = 'dependentes';
 
-    protected $fillabble = [
+    protected $fillable = [
         'parentesco', 'nome', 'genero', 'dtnascimento', 'cpf', 'rg',
         'emissor', 'dtemissao', 'cartao_sus', 'titular_id'
     ];

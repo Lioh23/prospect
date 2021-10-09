@@ -94,7 +94,7 @@ class FormDependente
                 </div>
             </div>
             <div class="col-lg-8 d-flex align-items-end flex-row-reverse">
-                <a href="" onclick="removerEsteDependente(event, '${novoDependente.id}')" class="btn btn-outline-danger mt-1 form-group">
+                <a href="" onclick="removerEsteDependente(event, '${novoDependente.id}')" class="btn btn-custom btn-outline-danger mt-1 form-group">
                     <i class="fa fa-trash" aria-hidden="true"></i><strong class="ml-1">Remover este dependente</strong>
                 </a>
             </div>

@@ -141,13 +141,13 @@
 
                                 <div class="row">
                                     <div class="col-md-12 my-2 d-flex flex-row-reverse">
-                                        <button type="button" id="add-dependente" class="btn btn-outline-success"> <i class="fa fa-plus" aria-hidden="true"></i> <strong>Adicionar dependente</strong> </button>
+                                        <button type="button" id="add-dependente" class="btn btn-custom btn-outline-success"> <i class="fa fa-plus" aria-hidden="true"></i> <strong class="mx-1">Adicionar dependente</strong> </button>
                                     </div>
                                 </div>
 
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <input type="submit" class="btn btn-custom btn-outline-deep-blue" value="Salvar">
+                                        <input type="submit" class="btn btn-custom btn-success px-4" value="Salvar">
                                     </div>
                                 </div>
                             </form>

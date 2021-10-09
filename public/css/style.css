@@ -5,7 +5,7 @@
 }
 
 .bg-custom-medium {
-    background-color: var(--blue-deep-color)!important;
+    background: linear-gradient(90deg, rgba(1,40,52,1) 45%, rgba(0,78,105,1) 100%)!important;
 }
 
 .btn-custom {
