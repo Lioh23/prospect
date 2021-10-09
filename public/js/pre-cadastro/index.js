@@ -32,7 +32,7 @@ formPreCadastro.onsubmit = async function(event) {
     const valueInputs = [];
 
     inputs.forEach( (element, index) => {
-        valueInputs.push(element.value);
+        valueInputs.push( element.value.trim() );
     });
 
     const [token, nome, genero, dtnascimento, cpf,
@@ -60,7 +60,7 @@ formPreCadastro.onsubmit = async function(event) {
                 const arrInputsDependente = inputDependentes.slice(index, index+9);
 
                 // pegando apenas os valores dos campos de dependentes
-                const arrValuesDependente = arrInputsDependente.map( element => removeSpecialChars(element.value));
+                const arrValuesDependente = arrInputsDependente.map( element => element.value.trim() );
                 const[parentesco, nome, genero, dtnascimento, cpf,
                     rg, emissor, dtemissao, cartaoSus ] = arrValuesDependente;
 

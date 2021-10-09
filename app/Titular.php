@@ -8,7 +8,7 @@ class Titular extends Model
 {
     protected $table = 'titulars';
 
-    protected $fillabble = [
+    protected $fillable = [
         'nome', 'genero', 'dtnascimento', 'cpf', 'rg',
         'emissor', 'dtemissao', 'cartao_sus', 'email',
         'telefone1', 'telefone2', 'logradouro','numero',

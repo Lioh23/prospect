@@ -7,7 +7,7 @@
             <div class="d-flex justify-content-between">
                 <h2 class="mt-2 mb-3">Pré Cadastro</h2>
                 <div class="d-flex flex-row-reverse mb-3">
-                    <a type="button" class="btn btn-outline-danger" href="{{ route('home') }}"> <strong>Voltar</strong> </i></a>
+                    <a class="btn btn-custom btn-outline-danger" href="{{ route('home') }}"> <strong><i class="fa fa-angle-double-left" aria-hidden="true"></i> Voltar</strong> </i></a>
                 </div>
             </div>
             <div class="card">
@@ -147,7 +147,7 @@
 
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <input type="submit" class="btn btn-primary" value="Salvar">
+                                        <input type="submit" class="btn btn-custom btn-outline-primary" value="Salvar">
                                     </div>
                                 </div>
                             </form>

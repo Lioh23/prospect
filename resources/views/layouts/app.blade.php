@@ -23,9 +23,9 @@
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm navbar-dark bg-custom-medium">
             <div class="container">
-                <a class="navbar-brand" href="{{ url('/') }}">
-                    <img width="40" src="{{ asset('/img/aapvr-logo-2.png')}}">
-                    <span style="font-size: 1.5rem" >{{ config('app.name', 'Prospect') }}</span>
+                <a id="aapvr-brand" class="navbar-brand" href="{{ url('/') }}">
+                    <img src="{{ asset('/img/aapvr-logo-sem-fundo.png')}}">
+                    <span>{{ config('app.name', 'Prospect') }}</span>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
@@ -79,7 +79,7 @@
     </div>
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
-    
+
     @yield('scripts')
 </body>
 </html>
