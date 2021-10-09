@@ -15,6 +15,34 @@
     font-weight: bold;
 }
 
+.btn-deep-blue {
+    color: #fff;
+    letter-spacing: .7px;
+    background-color: #2D4562;
+    border-color: #2D4562;
+}
+.btn-deep-blue:hover {
+    transition: .3s ease-in-out;
+    background-color: #1c3553;
+    border-color: #1c3553;
+    color: #fff;
+}
+
+.btn-outline-deep-blue {
+    color: #2D4562;
+    letter-spacing: .7px;
+    background-color: #fff;
+    border-color: #2D4562;
+}
+
+.btn-outline-deep-blue:hover {
+    color: #fff;
+    letter-spacing: .7px;
+    background-color: #2D4562;
+    border-color: #2D4562;
+}
+
+
 label {
     font-weight: bold;
 }
@@ -73,4 +101,44 @@ input[type=submit] {
     font-weight: bold;
 }
 
+/* Estilos de login */
+#login {
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(1,40,52,1) 25%, rgba(0,78,105,1) 61%, rgba(0,98,117,1) 100%);
+}
 
+#login main {
+    display: flex;
+    flex-direction: column;
+}
+
+#login main .logo {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+#login main .logo img {
+
+    -webkit-animation: rotate 2s linear infinite;
+    -moz-animation: rotate 2s linear infinite;
+    animation: rotate 3s linear infinite;
+}
+
+@-webkit-keyframes rotate {
+    100% {
+        -webkit-transform: rotateY(360deg);
+    }
+}
+
+@-moz-keyframes rotate {
+    100% {
+        -webkit-transform: rotateY(360deg);
+    }
+}
+
+@keyframes rotate {
+    100% {
+        -webkit-transform: rotateY(360deg);
+    }
+}

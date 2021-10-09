@@ -147,7 +147,7 @@
 
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <input type="submit" class="btn btn-custom btn-outline-primary" value="Salvar">
+                                        <input type="submit" class="btn btn-custom btn-outline-deep-blue" value="Salvar">
                                     </div>
                                 </div>
                             </form>
