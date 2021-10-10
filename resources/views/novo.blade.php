@@ -17,7 +17,6 @@
                         <div class="col-md-12">
                             <form id="formPreCadastro" action="" method="POST">
                                 <h3 class="effect-title my-1">Titular</h3>
-                                {{-- <hr class="my-1"> --}}
                                 <div class="row">
                                     <div class="col-lg-7">
                                         <div class="form-group mt-1">

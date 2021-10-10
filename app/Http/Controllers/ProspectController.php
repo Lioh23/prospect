@@ -10,7 +10,10 @@ use Illuminate\Http\Request;
 class ProspectController extends Controller
 {
     public function index() {
-        return view('home');
+
+        $titulares = Titular::select(['id', 'nome', 'created_at', 'telefone1', 'telefone2'])->get();
+        // dd($titulares);
+        return view('home', compact('titulares', $titulares));
     }
 
     public function novo() {
@@ -74,9 +77,19 @@ class ProspectController extends Controller
         return response()->json(['success' => 'Dados cadastrados com sucesso!']);
     }
 
+    public function removeTitular($id) {
+        if($titular = Titular::find($id)) {
+            $titular->delete();
+            return response()->json(['success' => 'Registro removido com sucesso!']);
+        } else {
+            return response()->json(['error' => 'Registro não localizado!']);   
+        }
+    }
+
     private function rmSpecialChars($string) {
         $string = trim($string);
         $string = preg_replace("/[^0-9]/", '', $string);
         return $string;
     }
+
 }

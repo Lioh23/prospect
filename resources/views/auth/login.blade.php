@@ -46,7 +46,7 @@
                         </div>
                         <div class="row justify-content-between">
                             <div class="col-6">
-                                <a href="{{ route('password.request') }}">{{ __('Recuperar senha') }}</a>
+                                <a href="{{ route('password.request') }}">{{ __('Esqueceu a senha?') }}</a>
                             </div>
                             <div class="col-6">
                                 <a href="{{ route('register') }}" style="display: block; text-align: end">{{ __('Cadastre-se') }}</a>

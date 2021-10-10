@@ -22,3 +22,4 @@ Auth::routes();
 Route::get('/', 'ProspectController@index')->middleware('auth')->name('home');
 Route::get('/novo', 'ProspectController@novo')->middleware('auth')->name('novo');
 Route::post('/store', 'ProspectController@store')->middleware('auth')->name('store');
+Route::delete('titular/remove/{id}', 'ProspectController@removeTitular')->name('titular.remove');

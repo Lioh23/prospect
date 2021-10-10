@@ -31,7 +31,7 @@
 .btn-outline-deep-blue {
     color: #2D4562;
     letter-spacing: .7px;
-    background-color: #fff;
+    background-color: transparent;
     border-color: #2D4562;
 }
 
@@ -60,9 +60,7 @@ label {
 
 #aapvr-brand span {
     font-size: 1.5rem;
-    /* font-weight: bold; */
     letter-spacing: .8px;
-
 }
 
 .effect-title {
@@ -140,5 +138,31 @@ input[type=submit] {
 @keyframes rotate {
     100% {
         -webkit-transform: rotateY(360deg);
+    }
+}
+
+/* fim estilos de login */
+
+/* estilos de pre cadastros */
+
+.spin {
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotateZ(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotateZ(360deg);
     }
 }
