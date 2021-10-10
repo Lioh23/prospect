@@ -53,7 +53,7 @@
 
                         <div class="row">
                             <div class="col-md-12 form-group">
-                                <label for="password-confirm" class="text-md-right">{{ __('Confirmação da senha') }}</label>
+                                <label for="password-confirm" class="text-md-right">{{ __('Confirmação de senha') }}</label>
                                 <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password" placeholder="{{__('Confirme sua senha')}}">
                             </div>
                         </div>

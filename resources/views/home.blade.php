@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-12">
@@ -56,4 +57,14 @@
         </div>
     </div>
 </div>
+@endsection
+
+@section('scripts')
+<script>
+  window.onload = function() {
+    if("{{ Session::has('success') }}") {
+      toastr['success']("{{ Session::get('success') }}");
+    } 
+  } 
+</script>
 @endsection

@@ -70,7 +70,7 @@ class ProspectController extends Controller
         } catch (\Throwable $th) {
             dd($th);
         }
-
+        $request->session()->flash('success', 'Pré cadastro realizado com sucesso!');
         return response()->json(['success' => 'Dados cadastrados com sucesso!']);
     }
 
