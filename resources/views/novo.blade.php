@@ -21,14 +21,14 @@
                                     <div class="col-lg-7">
                                         <div class="form-group mt-1">
                                             <label for="nome">Nome</label>
-                                            <input type="nome" name="nome" class="form-control" id="nome" placeholder="Insira seu nome completo" value="Aurélio Silva de Jesus">
+                                            <input type="nome" name="nome" class="form-control" id="nome" placeholder="Insira seu nome completo" >
                                         </div>
                                     </div>
                                     <div class="col-lg-2">
                                         <div class="form-group mt-1">
                                             <label for="genero">Gênero</label>
                                             <select class="form-control" id="genero" name="genero" required>
-                                                <option vaue="0">Selecione</option>
+                                                <option value="0">Selecione</option>
                                                 <option value="m">Masculino</option>
                                                 <option value="f">Feminino</option>
                                             </select>
@@ -37,7 +37,7 @@
                                     <div class="col-lg-3">
                                         <div class="form-group mt-1">
                                             <label for="dtnascimento">Data de Nascimento</label>
-                                            <input type="date" id="dtnascimento" name="dtnascmento" class="form-control" id="dtnascimento" value="1995-09-24">
+                                            <input type="date" id="dtnascimento" name="dtnascmento" class="form-control" id="dtnascimento">
                                         </div>
                                     </div>
                                 </div>
@@ -45,25 +45,25 @@
                                     <div class="col-lg-3">
                                         <div class="form-group mt-1">
                                             <label for="cpf">CPF</label>
-                                            <input type="text" name="cpf" class="form-control" id="cpf" placeholder="Insira o cpf" value="158.153.057-90">
+                                            <input type="text" name="cpf" class="form-control" id="cpf" placeholder="Insira o cpf">
                                         </div>
                                     </div>
                                     <div class="col-lg-3">
                                         <div class="form-group mt-1">
                                             <label for="rg">RG</label>
-                                            <input type="text" name="rg" class="form-control" id="rg" placeholder="Insira o RG" value="28.909.679-4">
+                                            <input type="text" name="rg" class="form-control" id="rg" placeholder="Insira o RG">
                                         </div>
                                     </div>
                                     <div class="col-lg-3">
                                         <div class="form-group mt-1">
                                             <label for="emissor">Órgão Emissor</label>
-                                            <input type="text" name="emissor" class="form-control" id="emissor" placeholder="Insira o Órgão Emissor" value="DETRAN">
+                                            <input type="text" name="emissor" class="form-control" id="emissor" placeholder="Insira o Órgão Emissor">
                                         </div>
                                     </div>
                                     <div class="col-lg-3">
                                         <div class="form-group mt-1">
                                             <label for="dtnascimento">Data de Emissão</label>
-                                            <input type="date" id="dtemissao" name="dtemissao" class="form-control" id="dtemissao" value="2014-01-14">
+                                            <input type="date" id="dtemissao" name="dtemissao" class="form-control" id="dtemissao">
                                         </div>
                                     </div>
                                 </div>
@@ -71,13 +71,13 @@
                                     <div class="col-md-4">
                                         <div class="form-group mt-1">
                                             <label for="cartao-sus">Cartão do SUS</label>
-                                            <input type="text" name="cartao-sus" class="form-control" id="cartao-sus" placeholder="Número do cartão do SUS" value="1234 5678 9123 4567">
+                                            <input type="text" name="cartao-sus" class="form-control" id="cartao-sus" placeholder="Número do cartão do SUS">
                                         </div>
                                     </div>
                                     <div class="col-md-8">
                                         <div class="form-group mt-1">
                                             <label for="email">E-Mail</label>
-                                            <input type="email" name="email" class="form-control" id="email" placeholder="exemplo@exemplo.com.br" value="aurelin95@gmail.com">
+                                            <input type="email" name="email" class="form-control" id="email" placeholder="exemplo@exemplo.com.br">
                                         </div>
                                     </div>
                                 </div>
@@ -85,13 +85,13 @@
                                     <div class="col-md-4">
                                         <div class="form-group mt-1">
                                             <label for="contato-1">Telefone / Celular</label>
-                                            <input type="text" name="contato-1" class="form-control" id="contato-1" placeholder="Informe um telefone" value="(24) 3328-0671">
+                                            <input type="text" name="contato-1" class="form-control" id="contato-1" placeholder="Informe um telefone">
                                         </div>
                                     </div>
                                     <div class="col-md-4">
                                         <div class="form-group mt-1">
                                             <label for="contato-2">Telefone / Celular</label>
-                                            <input type="text" name="contato-2" class="form-control" id="contato-2" placeholder="Informe outro telefone" value="(24) 98843-1762">
+                                            <input type="text" name="contato-2" class="form-control" id="contato-2" placeholder="Informe outro telefone">
                                         </div>
                                     </div>
                                 </div>
@@ -99,19 +99,19 @@
                                     <div class="col-md-6">
                                         <div class="form-group mt-1">
                                             <label for="logradouro">Logradouro</label>
-                                            <input type="text" name="logradouro" class="form-control" id="logradouro" placeholder="Informe o seu endereço" value="Avenida Central">
+                                            <input type="text" name="logradouro" class="form-control" id="logradouro" placeholder="Informe o seu endereço">
                                         </div>
                                     </div>
                                     <div class="col-md-2">
                                         <div class="form-group mt-1">
                                             <label for="numero-residencia">Número</label>
-                                            <input type="text" name="numero-residencia" class="form-control" id="numero-residencia" value="182">
+                                            <input type="text" name="numero-residencia" class="form-control" id="numero-residencia">
                                         </div>
                                     </div>
                                     <div class="col-md-4">
                                         <div class="form-group mt-1">
                                             <label for="complemento">Complemento</label>
-                                            <input type="text" name="complemento" class="form-control" id="complemento" value="Casa 1">
+                                            <input type="text" name="complemento" class="form-control" id="complemento">
                                         </div>
                                     </div>
                                 </div>
@@ -119,19 +119,19 @@
                                     <div class="col-md-4">
                                         <div class="form-group mt-1">
                                             <label for="bairro">Bairro</label>
-                                            <input type="text" name="bairro" class="form-control" id="bairro" placeholder="Informe o bairro" value="Novo Horizonte">
+                                            <input type="text" name="bairro" class="form-control" id="bairro" placeholder="Informe o bairro">
                                         </div>
                                     </div>
                                     <div class="col-md-4">
                                         <div class="form-group mt-1">
                                             <label for="cidade">Cidade</label>
-                                            <input type="text" name="cidade" class="form-control" id="cidade" placeholder="Informe a cidade" value="Barra Mansa">
+                                            <input type="text" name="cidade" class="form-control" id="cidade" placeholder="Informe a cidade">
                                         </div>
                                     </div>
                                     <div class="col-md-2">
                                         <div class="form-group mt-1">
                                             <label for="uf">UF</label>
-                                            <input type="text" name="uf" class="form-control" id="uf"  maxlength="2" minlength="2"value="RJ">
+                                            <input type="text" name="uf" class="form-control" id="uf"  maxlength="2" minlength="2">
                                         </div>
                                     </div>
                                 </div>
