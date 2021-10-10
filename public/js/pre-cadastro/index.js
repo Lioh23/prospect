@@ -6,8 +6,8 @@ const formData = {};
 
 // exibir outro formulário de dependentes
 btnNovoDependente.onclick = function() {
-
-    if(!formDependente.numComponent) {
+    const inputs = document.querySelectorAll('input, select');
+    if(inputs.length == 19) {
 
         divDependentes.appendChild(formDependente.createHeader(), );
         divDependentes.appendChild(formDependente.createComponent());
@@ -22,6 +22,10 @@ function removerEsteDependente(event, id) {
 
     event.preventDefault();
     document.getElementById(id).remove();
+    const inputs = document.querySelectorAll('input, select');
+    if(inputs.length == 19) {
+        formDependente.removeHeader();
+    }
 }
 
 // criar um objeto com todos os meus dados de formulário

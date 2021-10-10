@@ -6,9 +6,14 @@ class FormDependente
 
     createHeader() {
         const h3 = document.createElement('h3');
+        h3.id = 'headerDependentes'
         h3.classList = 'mb-2 mt-4 effect-title';
         h3.textContent = 'Dependentes';
         return h3;
+    }
+
+    removeHeader() {
+        document.getElementById('headerDependentes').remove();
     }
 
     createComponent() {

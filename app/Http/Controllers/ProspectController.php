@@ -23,12 +23,6 @@ class ProspectController extends Controller
     public function store(Request $request) {
         try {
 
-            // dd(
-            //     $this->rmSpecialChars($request->titular['telefone1']),
-            //     $this->rmSpecialChars($request->titular['cpf']),
-            //     $this->rmSpecialChars($request->titular['cartaoSus'])
-            // );
-
             // salvar titular e recuperar seu id
             $titular = new Titular([
                 'nome' => $request->titular['nome'],
@@ -91,5 +85,4 @@ class ProspectController extends Controller
         $string = preg_replace("/[^0-9]/", '', $string);
         return $string;
     }
-
 }
